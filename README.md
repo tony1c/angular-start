@@ -1,5 +1,12 @@
 # AngularStart
 
+Angular starting point with the following setup:
+- Angular v.20 zoneless & css;
+- Tailwindcss;
+- Eslint;
+- Prettier + sorting class and sorting import plugins.
+Consider adding DaisyUI as a UI library.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.0.
 
 ## Development server

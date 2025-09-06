@@ -1,2 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-@import "tailwindcss";
+@import 'tailwindcss';
+@theme {
+  --font-*: initial;
+  --font-noto: 'NotoSans', sans-serif;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/static/NotoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/static/NotoSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/static/NotoSans-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: var(--font-noto);
+}

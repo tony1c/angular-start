@@ -1,5 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'tailwindcss';
+
+:root {
+  --color-primary: #fff;
+  --color-primary-content: #000;
+}
+[data-theme='dark'] {
+  --color-primary: #000;
+  --color-primary-content: #fff;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-content: var(--color-primary-content);
+}
+
 @theme {
   --font-*: initial;
   --font-noto: 'NotoSans', sans-serif;
@@ -24,8 +39,4 @@
   font-style: normal;
   font-weight: 700;
   src: url('/assets/fonts/static/NotoSans-Bold.ttf') format('truetype');
-}
-
-body {
-  font-family: var(--font-noto);
 }

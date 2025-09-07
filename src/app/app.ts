@@ -1,10 +1,12 @@
 import { Component, signal } from '@angular/core';
 
+import { ThemeSwitcher } from './components/theme-switcher/theme-switcher';
+
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [ThemeSwitcher],
   templateUrl: './app.html',
-  styles: ``
+  styles: ``,
 })
 export class App {
   protected readonly title = signal('angular-start');

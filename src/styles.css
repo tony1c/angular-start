@@ -31,8 +31,22 @@
 @theme inline {
   --color-*: initial;
 
-  --color-primary: var(--color-neutral-0);
-  --color-primary-content: var(--color-neutral-900);
+  --color-primary-0: var(--color-neutral-0);
+  --color-primary-100: var(--color-neutral-100);
+  --color-primary-200: var(--color-neutral-200);
+  --color-primary-300: var(--color-neutral-300);
+  --color-primary-600: var(--color-neutral-600);
+  --color-primary-700: var(--color-neutral-700);
+  --color-primary-800: var(--color-neutral-800);
+  --color-primary-900: var(--color-neutral-900);
+  --color-primary-content-0: var(--color-neutral-900);
+  --color-primary-content-100: var(--color-neutral-800);
+  --color-primary-content-200: var(--color-neutral-700);
+  --color-primary-content-300: var(--color-neutral-600);
+  --color-primary-content-600: var(--color-neutral-300);
+  --color-primary-content-700: var(--color-neutral-200);
+  --color-primary-content-800: var(--color-neutral-100);
+  --color-primary-content-900: var(--color-neutral-0);
   --color-accent: var(--color-red-500);
   --background-image-gradient: var(--background-image-gradient);
 }
